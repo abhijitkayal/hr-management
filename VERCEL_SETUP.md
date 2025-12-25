@@ -95,4 +95,4 @@ cd server
 npm run dev
 ```
 
-The frontend will use `http://localhost:5000` automatically in development.
+The frontend will use `https://hr-management-r1zn.onrender.com` automatically in development.

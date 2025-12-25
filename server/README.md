@@ -385,7 +385,7 @@ The API can be tested using tools like:
 
 ### Health Check
 ```bash
-curl http://localhost:5000/api/health
+curl https://hr-management-r1zn.onrender.com/api/health
 ```
 
 ## Contributing

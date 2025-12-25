@@ -97,7 +97,7 @@ cd server
 npm install
 npm run dev
 ```
-Backend will run on: `http://localhost:5000`
+Backend will run on: `https://hr-management-r1zn.onrender.com`
 
 ### 2. Start Frontend
 ```bash
@@ -159,7 +159,7 @@ Frontend will run on: `http://localhost:5173`
 
 ### API Base URL
 The frontend automatically detects the API URL:
-- **Development**: `http://localhost:5000`
+- **Development**: `https://hr-management-r1zn.onrender.com`
 - **Production**: Uses environment variable or relative URLs
 
 ### Cache Configuration

@@ -57,7 +57,7 @@ cd ..
 
 #### Frontend Environment (.env)
 ```env
-VITE_API_URL=http://localhost:5000
+VITE_API_URL=https://hr-management-r1zn.onrender.com
 ```
 
 #### Backend Environment (server/.env)
@@ -106,8 +106,8 @@ npm run dev
 ## Application URLs
 
 - **Frontend**: http://localhost:5173
-- **Backend API**: http://localhost:5000
-- **API Health Check**: http://localhost:5000/api/health
+- **Backend API**: https://hr-management-r1zn.onrender.com
+- **API Health Check**: https://hr-management-r1zn.onrender.com/api/health
 
 ## API Endpoints
 

@@ -191,7 +191,7 @@ export default function AddNewCustomer() {
 
   try {
     const res = await axios.post(
-      "http://localhost:5000/api/customer-orders",
+      "https://hr-management-r1zn.onrender.com/api/customer-orders",
       payload
     );
     

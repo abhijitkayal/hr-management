@@ -123,7 +123,7 @@ export const EmployeeProvider = ({ children }) => {
   const fetchEmployees = useCallback(async () => {
     try {
       setLoading(true);
-      const res = await axios.get("http://localhost:5000/api/employees");
+      const res = await axios.get("https://hr-management-r1zn.onrender.com/api/employees");
       setEmployees(res.data);
       
       // Set the first employee as current user (you can modify this logic)
@@ -146,7 +146,7 @@ export const EmployeeProvider = ({ children }) => {
   const addEmployee = async (employeeData) => {
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/employees",
+        "https://hr-management-r1zn.onrender.com/api/employees",
         employeeData
       );
 

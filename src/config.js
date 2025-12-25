@@ -16,7 +16,7 @@ const getApiBaseUrl = () => {
   }
   
   // Development fallback
-  return envUrl || "http://localhost:5000";
+  return envUrl || "https://hr-management-r1zn.onrender.com";
 };
 
 export const API_BASE_URL = getApiBaseUrl();

@@ -36,7 +36,7 @@ export default function EmployeeDetails() {
 
   const fetchEmployee = async () => {
     try {
-      const res = await axios.get(`http://localhost:5000/api/employees/${id}`);
+      const res = await axios.get(`https://hr-management-r1zn.onrender.com/api/employees/${id}`);
       setEmployee(res.data);
     } catch (err) {
       console.error(err);

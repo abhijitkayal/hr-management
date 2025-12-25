@@ -148,7 +148,7 @@ export default function Vacancy() {
     const fetchVacancies = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:5000/api/job-postings"
+          "https://hr-management-r1zn.onrender.com/api/job-postings"
         );
 
         // Only show non-expired jobs

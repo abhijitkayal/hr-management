@@ -2,7 +2,7 @@
 // import { useOutletContext, useNavigate } from "react-router-dom";
 // import axios from "axios";
 
-// const API = "http://localhost:5000/api/expenses"
+// const API = "https://hr-management-r1zn.onrender.com/api/expenses"
 
 
    
@@ -473,7 +473,7 @@ import {
   Trash2,
 } from "lucide-react";
 
-const API = "http://localhost:5000/api/expenses";
+const API = "https://hr-management-r1zn.onrender.com/api/expenses";
 // const API="https://hr-management-r1zn.onrender.com/api/expenses"
 
 export default function Expenses() {

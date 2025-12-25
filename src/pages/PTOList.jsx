@@ -23,7 +23,7 @@ export default function PTOList() {
   const navigate = useNavigate();
   const fetchptolist = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/employees");
+      const res = await axios.get("https://hr-management-r1zn.onrender.com/api/employees");
       setList(res.data);
       setRequests(res.data);
       console.log(res.data);

@@ -41,7 +41,7 @@
 
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/negotiations";
+const API_URL = "https://hr-management-r1zn.onrender.com/api/negotiations";
 
 // const API_URL = "https://hr-management-r1zn.onrender.com/api/negotiations";
 
